@@ -23,8 +23,16 @@ php -S 127.0.0.1:8080 -t public
 and open [localhost]
 (http://127.0.0.1:8080)
 
-Now you need to follow the steps in the second part of this demo series.
+API routes for testing are:
+api/v1/languages - GET
+api/v1/languages - POST
+api/v1/languages/{id} - PUT
+api/v1/languages/{id} - DELETE
+
+Add a few languages using the post route above.
+
+You need to follow the steps in the second part of this demo series
+to see the languages you added in Drupal 9.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
