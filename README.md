@@ -12,7 +12,18 @@ run this command to install all the necessary modules.
 ```bash
 composer install
 ```
-Update the MySQL details inside /.env to match your own.
+Update the MySQL details inside /.env to match your own and
+create your database.
+
+```bash
+php bin/console make:migration
+```
+
+Create the tables.
+
+```bash
+php bin/console doctrine:migrations:migrate
+```
 
 ## Testing the application
 
